@@ -1,0 +1,36 @@
+﻿@model Model.Customer
+
+@{
+    ViewBag.Title = "Details Customer";
+}
+
+<h2>Details</h2>
+<dl class="dl-horizontal">
+        <td>
+            @Html.DisplayFor(model => model.CustomerId)
+        </td>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerId)
+        </dt>
+
+        <td>
+            @Html.DisplayFor(model => model.CustomerName)
+        </td>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+        <td>
+            @Html.DisplayFor(model => model.Address)
+        </td>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+       
+</dl>       
+       
+ 
+
+        
+       
+    
+
